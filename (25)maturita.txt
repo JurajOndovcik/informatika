@@ -1,0 +1,7 @@
+Diana 2 1 2 2
+Peter 3 2 1 2
+Michal 5 4 3 3
+Karol 1 1 1 1
+Daniela 1 1 1 1
+Michaela 1 2 1 1
+Fedor 3 2 3 3
