@@ -22,12 +22,12 @@ def dvojcifernecislo():
         jedvojciferne = False
 
 def jeprvocislo():
-    global jeprvocislo
+    global jeprvocisloo
     for i in range(2, n):
         if n % i == 0:
-            jeprvocislo = False
+            jeprvocisloo = False
         else:
-            jeprvocislo = True
+            jeprvocisloo = True
 
 možnosť = input("Zadajte možnosť: ")
 if možnosť == "zvysok3":
@@ -41,6 +41,6 @@ elif možnosť == "dvojcifernecislo":
     print(jedvojciferne)
 elif možnosť == "jeprvocislo":
     jeprvocislo()
-    print(jeprvocislo)
+    print(jeprvocisloo)
 else:
     print("Neplatná možnosť")
