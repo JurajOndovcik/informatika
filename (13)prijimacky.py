@@ -32,4 +32,4 @@ print("KOD     BODY    VYSLEDOK")
 
 for ziak in kody_ziakov:
     body = random.randint(0, 150)
-    list(kod, body)
+    list(ziak, body)
