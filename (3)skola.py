@@ -23,9 +23,13 @@ def dvojcifernecislo():
 
 def jeprvocislo():
     global jeprvocisloo
-    for i in range(2, n):
-        if n % i == 0:
-            jeprvocisloo = False
+    if n < 2:
+        jeprvocisloo = False
+    else:
+        for i in range(2, int(n**0.5) + 1):
+            if n % i == 0:
+                jeprvocisloo = False
+                break
         else:
             jeprvocisloo = True
 
