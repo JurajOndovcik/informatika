@@ -21,9 +21,9 @@ def lampa(pozicia):
             canvas.create_oval(x-10, y-10, x+10, y+10, fill="yellow")
             canvas.create_rectangle(x-10, y+30, x+10, y+70, fill="gray", outline="black")
             canvas.create_text(x, y+50, text=lampy, font="Arial 15", fill="black")
-            lampy += 1
 
             otocena_lampa(x, y)
+            lampy += 1
     else:
         print('Nedá sa')
 def otocena_lampa(x, y):
